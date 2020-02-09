@@ -1,0 +1,21 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2020-01-31T21:14:52</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2019.2.3.0.0</property>
+    <property name="modified">2020-01-31T22:09:50</property>
+    <property name="originalScheme">Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="CONSOLE_NORMAL_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="dae3ce" />
+      </value>
+    </option>
+    <option name="CONSOLE_SYSTEM_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="3c3f41" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
