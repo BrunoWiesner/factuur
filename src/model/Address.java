@@ -70,7 +70,6 @@ public class Address extends Object{
     }
 
     public String getLand() {
-        System.out.println("kjlj");
         return land;
 
     }
