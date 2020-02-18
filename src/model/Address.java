@@ -1,6 +1,11 @@
 package model;
 
-public class Address extends Object{
+/** Represents an address
+ * @author Syntra
+ * @version 1.0
+ * @since 1.0
+ */
+public class Address{
     private String postCode;
     private String gemeente;
     private String straat;
@@ -19,6 +24,8 @@ public class Address extends Object{
                 '}';
     }
 
+    /** creates an address
+     */
     public Address(String postCode, String gemeente, String straat, String nummer, String bus, String email, String land) {
         this.postCode = postCode;
         this.gemeente = gemeente;
@@ -60,7 +67,7 @@ public class Address extends Object{
     public void setBus(String bus) {
         this.bus = bus;
     }
-//----
+
     public String getEmail() {
         return email;
     }
@@ -70,7 +77,7 @@ public class Address extends Object{
     }
 
     public String getLand() {
-        return land;
+     return land;
 
     }
 
