@@ -8,9 +8,8 @@ import java.util.regex.Pattern;
 
 /** This class contains custom static validators
  * <h2><b>Method-list</b></h2>
- * <ul><il>isMailAddressValid</il>
- * <il>formatPhoneNumber</il>
- * <il></il></ul>
+ * <ul><li>isMailAddressValid</li>
+ * <li>formatPhoneNumber</li></ul>
  * @author Syntra
  * @version 1.0
  * @since 1.0
@@ -20,6 +19,8 @@ final public class Validator {
 
     /**
      * Checks if the email-address contains 1 @ character
+     * @param mailAddress
+     * @return
      */
     public static boolean isMailAddressValid(String mailAddress)
     {
@@ -39,7 +40,7 @@ final public class Validator {
      * <ul>
      * <li>non valid characters will be removed</li>
      * <li>characters between round brackets will be removed (including the brackets)</li>
-     * <li>if phonenumber doesn't start with a + sign then BE-country code will be implemented</li>
+     * <li>if phonenumber doesn't start with a + sign then BE-country code will be implemented</li></ul>
      */
     public static String formatPhoneNumber(String phoneNumber)
     {
