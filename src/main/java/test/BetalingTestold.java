@@ -5,7 +5,7 @@ import org.junit.*;
 
 import static org.junit.Assert.assertEquals;
 
-public class TestBetaling {
+public class BetalingTestold {
 
 
     @Test
@@ -22,12 +22,12 @@ public class TestBetaling {
 
         @BeforeClass
     public static void before() {
-        System.out.println("************** Start TestBetaling *******************");
+        System.out.println("************** Start BetalingTestold *******************");
     }
 
 
     @AfterClass
     public static void after() {
-        System.out.println("**************** End TestBetaling *******************");
+        System.out.println("**************** End BetalingTestold *******************");
     }
 }

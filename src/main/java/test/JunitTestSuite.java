@@ -5,8 +5,20 @@ import org.junit.runners.Suite;
 
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({TestAddress.class,TestPartner.class,TestBetaling.class})
+@Suite.SuiteClasses({AddressTest.class, PartnerTestold.class, BetalingTestold.class})
+
+
+/*
+public class AllTests {
+    // leeg laten
+}
+
+*/
+
+
 public class JunitTestSuite {
     public JunitTestSuite() {
     }
 }
+
+

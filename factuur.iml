@@ -22,5 +22,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="Maven: nl.garvelink.oss:iban:1.6.1" level="project" />
+    <orderEntry type="library" name="org.junit.jupiter:junit-jupiter:5.4.2" level="project" />
   </component>
 </module>

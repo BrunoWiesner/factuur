@@ -5,11 +5,11 @@ import model.*;
 import org.junit.*;
 import static org.junit.Assert.*;
 
-public class TestPartner {
+public class PartnerTestold {
 
 
     @Test
-    public void testObjectCreation()
+    public void test_AddressConstructor_ObjectCreation()
     {
 
         String naam="Max";
@@ -51,43 +51,43 @@ public class TestPartner {
 
 
     @Test
-    public void testIbanMissingCountryCode()
+    public void test_isBanAccountValid_IbanMissingCountryCode()
     {
         assertFalse(Validator.isBankAccountValid( "7330 1153 3128"));
     }
     @Test
-    public void testIbanWrongNumber()
+    public void test_isBankAccountValid_IbanWrongNumber()
     {
         assertFalse(Validator.isBankAccountValid( "BE37 7330 1153 3121"));
     }
 
     @Test
-    public void testIbanCorrectNumber()
+    public void test_isBankAccountValid_IbanCorrectNumber()
     {
         assertTrue(Validator.isBankAccountValid("BE37 7330 1153 3128"));
     }
 
 
     @Test
-    public void testInvalidMailWithoutAtSign()
+    public void test_isMailAddressValid_InvalidMailWithoutAtSign()
     {
         assertFalse(Validator.isMailAddressValid("ongeldigMailAdres"));
     }
 
     @Test
-    public void testInvalidMailWithMultipleAtSigns()
+    public void test_isMailAddressValid_InvalidMailWithMultipleAtSigns()
     {
         assertFalse(Validator.isMailAddressValid("ongeldig@Mail@Adres"));
     }
 
     @Test
-    public void testInvalidMailAddress()
+    public void test_isMailAddressValid_InvalidMailAddress()
     {
         assertTrue(Validator.isMailAddressValid("geldigMailAdres@Syntra.be"));
     }
 
     @Test
-    public void testPhoneNumberFormatting()
+    public void test_formatPhoneNumber_ConversionResultEqual()
     {
         String valueBeforeFormatting="(0)15/33.33.33 nummer kantoor";
         String valueAfterFormatting="+3215333333";
@@ -97,13 +97,13 @@ public class TestPartner {
 
     @BeforeClass
     public static void before() {
-        System.out.println("************* Start TestPartner ********************");
+        System.out.println("************* Start PartnerTestold ********************");
     }
 
 
     @AfterClass
     public static void after() {
-        System.out.println("**************** End TestPartner ********************");
+        System.out.println("**************** End PartnerTestold ********************");
     }
 
 }
